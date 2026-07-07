@@ -1,0 +1,11 @@
+# Ignore local environment files and logs
+.env
+.env.local
+*.log
+.shopify/
+
+# Ignore nested node modules and builds
+**/node_modules/
+**/dist/
+**/.cache/
+**/.hydrogen/
